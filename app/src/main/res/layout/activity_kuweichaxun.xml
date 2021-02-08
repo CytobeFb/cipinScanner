@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/layout_fork_title" />
+
+    <EditText
+        android:id="@+id/ed_order"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="扫描订单号"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_login_edit"
+        android:padding="10dp"
+        android:textSize="15sp"/>
+
+    <com.cy.cipinscanner.view.XListView.XListView
+        android:id="@+id/lv_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.cy.cipinscanner.view.XListView.XListView>
+
+</LinearLayout>

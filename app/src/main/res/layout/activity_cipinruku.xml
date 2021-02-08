@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/layout_fork_title" />
+
+    <EditText
+        android:id="@+id/ed_order"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="扫描订单号"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_login_edit"
+        android:padding="10dp"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/ed_kuwei"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="扫描库位"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_login_edit"
+        android:padding="10dp"
+        android:textSize="15sp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_ruku"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_commit"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="入库"
+        android:gravity="center"/>
+
+</LinearLayout>
