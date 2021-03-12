@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">次品出入库</string>
+    <string name="app_name">返工单</string>
     <string name="permission_explain">你已拒绝访问%1$s权限,请前往设置中心打开权限</string>
     <string name="xlistview_header_hint_normal">下拉刷新</string>
     <string name="xlistview_header_hint_ready">松开刷新数据</string>

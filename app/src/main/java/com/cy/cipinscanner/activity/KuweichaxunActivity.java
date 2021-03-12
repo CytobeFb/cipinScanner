@@ -67,6 +67,9 @@ public class KuweichaxunActivity extends BaseActivity {
         toolbarTitle.setText("库位查询");
         toolbarRightText.setVisibility(View.INVISIBLE);
 
+        edOrder.setFocusable(true);
+        edOrder.setFocusableInTouchMode(true);
+        edOrder.requestFocus();
         edOrder.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {

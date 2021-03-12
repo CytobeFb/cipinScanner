@@ -55,9 +55,12 @@ public class CipinRukuActivity extends BaseActivity {
                 finish();
             }
         });
-        toolbarTitle.setText("次品入库");
+        toolbarTitle.setText("返工单");
         toolbarRightText.setVisibility(View.INVISIBLE);
 
+        edOrder.setFocusable(true);
+        edOrder.setFocusableInTouchMode(true);
+        edOrder.requestFocus();
         tvRuku.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -19,7 +19,7 @@
             android:layout_weight="1"
             android:layout_height="100dp"
             android:layout_marginLeft="40dp"
-            android:text="次品入库"
+            android:text="返工单"
             android:textSize="18sp"
             android:textColor="@color/white"
             android:gravity="center"
